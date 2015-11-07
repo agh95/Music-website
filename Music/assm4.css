@@ -1,0 +1,337 @@
+
+body {
+	font-family:arial;
+	font-size:0.9em;
+	background-color:#cccccc;
+}
+
+div#mainpage {
+	margin:20px auto 0 auto;
+	width:1000px;
+	min-height:700px;
+	background-color:#ffffe0;
+	border-radius:5px 5px 0 0;
+	border:solid 1px #444444;
+}
+
+/* --------- Header --------- */
+
+div#header {
+	width:100%;
+	height:58px;
+	/*background-color:#262626;*/
+	background-color:black;
+	color:#ffffff;
+	border-bottom:solid 1px #444444;
+	padding:4px 4px 4px 8px;
+	text-align:center;
+	vertical-align:middle;
+	font-style: italic;
+	font-family: "Monotype Corsiva", serif;
+	font-size:3em;
+	font-weight:bold;
+}
+div#header img#note{
+	float: left;
+	width: 50px ;
+	height: 58px;
+	}
+div#header img#note1{
+	float: right;
+	width: 50px ;
+	height: 58px;
+}
+div#header span#music{
+	border-bottom:solid 1px #444444;
+}
+
+/* --------- Tab menu --------- */
+
+div#menu {
+	
+	background-color:black;
+	padding:10px;
+	color:white;
+}
+
+div#menu ul{
+	list-style-type: none;
+	display:inline-block;
+	padding-left: 0px;
+}
+div#menu ul li{
+	
+	display:inline-block;
+	border-left: solid 1px #444444;
+	padding: 0px 4px 0px 9px;
+	text-align: center;
+	vertical-align: middle;
+}
+div#menu ul li:first-child{
+	
+	display:inline-block;
+	border-left: none;
+}
+div#menu {
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*--------Title of the home page------*/
+div.title{
+	display:none;
+	text-align:center;
+	margin-top: 20px;
+	border-bottom: dotted 2px #8B0000;
+	border-top: dotted 2px #8B0000;
+}
+
+/*----- css for the tracks--------*/
+ol#toptrack {
+	margin-top: 40px;
+}
+ol#toptrack ul {
+	
+	 padding-left: 1em; 
+    text-indent: -.7em;
+	 
+	}
+ol#toptrack div li.toptracks span.name{
+	border-left: none;
+	padding-left: 4px;
+	font-family: "Monotype Corsiva", serif;
+	font-size:2em;
+}
+ol#toptrack div li.toptracks span{
+	border-left: none;
+	padding-left: 4px;
+	
+	font-size:1.2em;
+}
+ol#toptrack div ul.ultracks li {
+	list-style-type: square;
+	color:#8B0000;
+	font-family: "Times New Roman", serif;
+	font-size:1em;
+	padding-left: 10px;
+	
+	}
+
+ol#toptrack li span{
+	border-left: solid 1px grey;
+	padding-left: 4px;
+	color:black;
+}
+ol#toptrack div{
+	margin: 20px;
+}
+hr {
+  
+  
+    width: 800px;
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+
+/*----- css for the artists--------*/
+ol#topart li {
+	text-decoration: none;
+	list-style-type:none;
+}
+li.topartists ul{
+	padding-left: 160px;
+	padding-top:10px;
+	list-style-type: none;
+	font-style: italic;
+}
+ol#topart div.divartists li.topartists span.name {
+
+	font-family: "Nexa Rust", monospace;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px  #000066;
+
+}
+
+/*----- css for the events----*/
+div#eventsid ul li headliner{
+	display:none;
+}
+
+ul#topevent{
+	margin-right: 40px;
+	list-style-type: none;
+}
+div.eventblock
+{
+	border: solid 1px grey;
+	
+	margin-top: 80px;
+	margin-bottom:80px;
+	border-top-right-radius:267px;
+	border-bottom-left-radius:267px;
+	padding: 50px 0px;
+	background-color: #cccccc;
+	padding-bottom: 70px;
+	padding-top:75px;
+	padding-left: 35px;
+	padding-right: 50px;
+	
+}
+div.eventblock li ul{
+	list-style-type: none;
+}
+div.eventblock li ul li{
+	padding-bottom: 5px
+}
+/*-------css for the images-----*/
+img.music{
+	top:-100em;
+	float:left;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	margin-right: 0px;
+
+}
+img#mainimg{
+	width:1000px;
+	height: 350px;
+	padding-bottom: 10px;
+}
+img.note{
+	padding: 0px 15px;
+}
+img.classart{
+	float:left;
+	overflow: auto;
+	padding: 0px 60px;
+}
+div#divartist8 img {
+	
+	margin: 10px 0px;
+}
+
+/*-----css for the links-----*/
+a:hover{
+	color: #8B0000;
+}
+h1
+{
+	font-family: "Monotype Corsiva", serif;
+	font-style: italic;
+	text-align: center;
+}
+div#menu li:hover {
+	font-style: italic;
+	padding-bottom: 4px;
+	border-bottom: dashed 1.5px #8B0000;
+}
+
+/*----- css for the homepgae-----*/
+div#homepage{
+	vertical-align:middle;
+	text-align: center;
+	padding: 20px 20px;
+}
+div#homepage ul{
+	
+	padding: 0px 0px;
+}
+li.homeli{
+	font-weight: bold;
+	color:#1A1A1A;
+}
+li.homeli:hover{
+	color: #8B0000;
+}
+h2{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+span.artists{
+	font-weight: bold;
+	font-family: "Monotype Corsiva", serif;
+	color:#8B0000;
+	font-size: 1.9em;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+span.headliner{
+	font-weight: bold;
+	color:#FFFFCC;
+	font-size: 1.5em;
+	text-decoration: underline;
+	font-style: italic;
+	text-shadow: 0px 2px 3px 555px;
+}
+span.date{
+	font-style: italic;
+	color:#8B0000;
+	font-size: 1em;
+}
+span.tags{
+	font-style: italic;
+	color:#8B0000;
+	font-size: 1em;
+}
+a.website{
+	font-style: italic;
+	color:#8B0000;
+	font-size: 1em;
+}
+a.website:hover{
+	color: black;
+}
+div.eventblock ul{
+	text-align: center;
+}
+.searchtext li {
+
+	
+	display:inline-block;
+	border-left: solid 3px #444444;
+	border-right: solid 3px #444444;
+	background-color: #cccccc;
+	padding: 5px 7px 5px 7px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #8B0000;
+	margin-top: 5px;
+}
+div#artists ol{
+	list-style-type: none;
+}
+div#tracks ol{
+	list-style-type: none;
+}
+div.sorting{
+	display:none;
+	text-align: center;
+	vertical-align: middle;
+	padding-right: 40px;
+}
+
+div.sorting ul li:hover{
+
+	font-size: 1.1em;
+	
+}
